@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Code Submission</h1>
+    <form id="submissionForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="code">Code:</label>
+        <textarea id="code" name="code" rows="10" cols="30" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <!-- axios를 로드하기 위한 스크립트 태그 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <!-- index.js 파일을 로드하기 위한 스크립트 태그 -->
+    <script src="index.js"></script>
+</body>
+</html>
