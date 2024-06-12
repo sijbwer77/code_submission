@@ -12,7 +12,7 @@ document.getElementById('submissionForm').addEventListener('submit', async funct
     };
 
     try {
-        const response = await axios.post('https://bb3a-118-218-37-245.ngrok-free.app/submission', payload);
+        const response = await axios.post('https://f817-118-218-37-245.ngrok-free.app/submission', payload);
 
         console.log('Response status:', response.status);
         console.log('Response data:', response.data);
